@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\patry\\.nuget\\packages\\": {}
+    "/home/jekbe/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patry\\RiderProjects\\PZ2\\PZ2\\PZ2.csproj",
+      "projectUniqueName": "/home/jekbe/RiderProjects/PZ2/PZ2/PZ2.csproj",
       "projectName": "PZ2",
-      "projectPath": "C:\\Users\\patry\\RiderProjects\\PZ2\\PZ2\\PZ2.csproj",
-      "packagesPath": "C:\\Users\\patry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patry\\RiderProjects\\PZ2\\PZ2\\obj\\",
+      "projectPath": "/home/jekbe/RiderProjects/PZ2/PZ2/PZ2.csproj",
+      "packagesPath": "/home/jekbe/.nuget/packages/",
+      "outputPath": "/home/jekbe/RiderProjects/PZ2/PZ2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\patry\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/jekbe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\patry\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/jekbe/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
