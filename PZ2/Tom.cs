@@ -7,7 +7,7 @@ public class Tom : Ksiazka
 
     public Tom() { }
 
-    public Tom(string isbn, string tytul, int rokWydania, int liczbaStron, string autor, int numerTomu, int liczbaTomow) : base(isbn, tytul, rokWydania, liczbaStron, autor)
+    public Tom(string? isbn, string? tytul, int rokWydania, int liczbaStron, string? autor, int numerTomu, int liczbaTomow) : base(isbn, tytul, rokWydania, liczbaStron, autor)
     {
         if (numerTomu > liczbaTomow)
             throw new NiepoprawnyTomException("Numer tomu nie może być większy od liczby wszystkich tomów w serii.");

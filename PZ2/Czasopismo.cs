@@ -9,7 +9,7 @@ public class Czasopismo : Dokument
 
     public Czasopismo() { }
 
-    public Czasopismo(string isbn, string tytul, int rokWydania, int liczbaStron, int numer, Czestotliwosc czestotliwosc) : base(isbn, tytul, rokWydania, liczbaStron)
+    public Czasopismo(string? isbn, string? tytul, int rokWydania, int liczbaStron, int numer, Czestotliwosc czestotliwosc) : base(isbn, tytul, rokWydania, liczbaStron)
     {
         Numer = numer;
         CzestotliwoscWydania = czestotliwosc;

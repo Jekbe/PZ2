@@ -2,16 +2,16 @@ namespace PZ2;
 
 public abstract class Dokument
 {
-    public string ISBN { get; set; }
-    public string Tytul { get; set; }
+    public string? Isbn { get; set; }
+    public string? Tytul { get; set; }
     public int RokWydania { get; set; }
     public int LiczbaStron { get; set; }
 
-    public Dokument() { }
+    protected Dokument() { }
 
-    public Dokument(string isbn, string tytul, int rokWydania, int liczbaStron)
+    protected Dokument(string? isbn, string? tytul, int rokWydania, int liczbaStron)
     {
-        ISBN = isbn;
+        Isbn = isbn;
         Tytul = tytul;
         RokWydania = rokWydania;
         LiczbaStron = liczbaStron;
@@ -21,7 +21,7 @@ public abstract class Dokument
 
     public override string ToString()
     {
-        return $"{ISBN}, {Tytul}, {RokWydania}, {LiczbaStron}";
+        return $"{Isbn}, {Tytul}, {RokWydania}, {LiczbaStron}";
     }
 
     public override bool Equals(object? obj)
